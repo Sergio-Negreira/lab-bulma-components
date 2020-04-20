@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import '../../node_modules/bulma/css/bulma.css'
+import CoolButton from '../coolbutton/CoolButton'
 
 export default class Navbar extends Component {
     render() {
@@ -69,7 +70,7 @@ export default class Navbar extends Component {
                 {/* <span className="icon">
                   <i className="fas fa-download"></i>
                 </span> */}
-                <span>Sign up</span>
+                <span>Sign Up</span>
               </a>
             </p>
           </div>
