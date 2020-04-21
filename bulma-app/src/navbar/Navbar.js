@@ -55,30 +55,20 @@ export default class Navbar extends Component {
       </div>
 
       <div className="navbar-end">
-        <div className="navbar-item">
-          <div className="field is-grouped">
-            <p className="control">
-              <a className="button is-info is-rounded " /*data-social-network="Twitter" data-social-action="tweet" data-social-target="https://bulma.io" target="_blank" rel="noopener noreferrer"*/ href=" ">
-                {/* <span className="icon">
-                  <i className="fas fa-download"></i>
-                </span> */}
-                <span>Login</span>
-              </a>
-            </p>
-            <p className="control">
-              <a className="button is-primary is-rounded" href=" ">
-                {/* <span className="icon">
-                  <i className="fas fa-download"></i>
-                </span> */}
-                <span>Sign Up</span>
-              </a>
-            </p>
+              <div className="navbar-item">
+                <div className="field is-grouped">
+                  <div className="control">
+                    <CoolButton styles="is-danger button my-class" text="Login"  />
+                  </div>
+                  <div className="control">
+                    <CoolButton styles="is-success button my-class" text="Sign Up"  />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
+        </nav>
       </div>
-    </div>
-  </nav>
-</div>
 )
 }
 }
